@@ -88,12 +88,94 @@ let addOne = num => num + 1;
 // HINT - here are example functions using comparison operators https://gist.github.com/ryanorsinger/e843c7d0966993bd8193f0afabe16ae0
 // If you get stuck, be sure to check the example code and documentation listed above
 
-let isPositive = num => (num % 2 !== 0) ? true : false
+// let isPositive = num => (num % 2 !== 0) ? true : false
 
-function isPositive (num) {
-    if(num % 2 !== 0) {
-        return true;
-    } else {
-        return false;
+// function isPositive (num) {
+//     if(num % 2 !== 0) {
+//         return true;
+//     } else {
+//         return false;
+//     }
+// }
+
+function isPositive(i){
+    if(i>0){
+      return true;
     }
-}
+    return false;
+  }
+
+  
+
+
+
+  // Exercise 13
+// Write a function definition named isNegative that takes in a number and returns true or False if that number is negative.
+
+function isNegative(i){
+    if(i<0){
+      return true;
+    }
+    return false;
+  }
+
+  
+
+// Exercise 14
+// Write a function definition named isOdd that takes in a number and returns true or false if that number is odd.
+
+let isOdd = num => (num % 2 !== 0) ? true : false;
+
+
+
+// Exercise 15
+// Write a function definition named isEven that takes in a number and returns true or false if that number is even.
+
+let isEven = num => (num % 2 === 0) ? true : false;
+
+
+
+// Exercise 16
+// Write a function definition named identity that takes in any input and returns that input. Don't overthink this one!
+
+let identity = id => id;
+
+
+
+
+
+// Exercise 17
+// Write a function definition named isPositiveOdd that takes in a number and returns true or false if the value is both greater than zero and odd
+
+let isPositiveOdd = num => (num > 0 && num % 2 !== 0) ? true : false;
+
+
+
+// Exercise 18
+// Write a function definition named isPositiveEven that takes in a number and returns true or false if the value is both greater than zero and even
+
+
+let isPositiveEven = num => (num > 0 && num % 2 === 0) ? true : false;
+
+
+
+
+
+// Exercise 19
+// Write a function definition named isNegativeOdd that takes in a number and returns true or false if the value is both less than zero and odd.
+
+
+let isNegativeOdd = num => (num < 0 && num % 2 !== 0) ? true : false;
+
+
+
+
+// Exercise 20
+// Write a function definition named isNegativeEven that takes in a number and returns true or false if the value is both less than zero and even.
+
+let isNegativeEven = num => (num < 0 && num % 2 === 0) ? true : false;
+
+
+
+
+
