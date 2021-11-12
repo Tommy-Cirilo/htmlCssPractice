@@ -177,5 +177,24 @@ let isNegativeEven = num => (num < 0 && num % 2 === 0) ? true : false;
 
 
 
+// Exercise 21
+// Write a function definition named half that takes in a number and returns half the provided number.
 
+let half = num => (num * .5);
+
+
+
+
+// Exercise 22
+// Write a function definition named double that takes in a number and returns double the provided number.
+
+
+let double = num => (num * 2);
+
+
+
+// Exercise 23
+// Write a function definition named triple that takes in a number and returns triple the provided number.
+
+let triple = num => (num * 3);
 
