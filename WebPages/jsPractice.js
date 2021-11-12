@@ -89,3 +89,11 @@ let addOne = num => num + 1;
 // If you get stuck, be sure to check the example code and documentation listed above
 
 let isPositive = num => (num % 2 !== 0) ? true : false
+
+function isPositive (num) {
+    if(num % 2 !== 0) {
+        return true;
+    } else {
+        return false;
+    }
+}
