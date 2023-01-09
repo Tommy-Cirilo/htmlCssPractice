@@ -1,0 +1,13 @@
+table {
+    background-color: grey;
+}
+
+th, td {
+    padding: 15px;
+  }
+
+  tr {
+    background-color: #FFF;
+  }
+
+  tr:hover {background-color: grey;}
